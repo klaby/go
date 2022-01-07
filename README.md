@@ -26,3 +26,13 @@ Creating a module!
 - I learned how to declare a variable and assign the value in one line using `:=`.
 - Formatting a string using the `Sprintf` function.
 - [Reference](https://go.dev/doc/tutorial/create-module)
+
+## [03 - Hello named!](https://github.com/koffelab/go/tree/main/hello-named)
+
+Import a local module!
+
+### What have learned?
+
+- Import a local module.
+- Use the `go mod edit -replace module=directory` command to reference a local module.
+- [Reference](https://go.dev/doc/tutorial/call-module-code)
