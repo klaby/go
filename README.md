@@ -13,7 +13,7 @@ Hello world in GO!
 - Import standard packages.
 - Importing external packages.
 - Synchronize dependencies using the `go mod tidy` command.
-- [Reference](https://go.dev/doc/tutorial/getting-started)
+- [Reference](https://go.dev/doc/tutorial/getting-started) | [Commit](https://github.com/klaby/go/commit/812b96bf8aa4c0d41e88b5f6e05fee54cabf6431)
 
 ## [02 - First module](https://github.com/koffelab/go/tree/main/greetings)
 
@@ -25,7 +25,7 @@ Creating a module!
 - I learned that functions with a capital initial can be called by a function that is not in the same package.
 - I learned how to declare a variable and assign the value in one line using `:=`.
 - Formatting a string using the `Sprintf` function.
-- [Reference](https://go.dev/doc/tutorial/create-module)
+- [Reference](https://go.dev/doc/tutorial/create-module) | [Commit](https://github.com/klaby/go/commit/751aab00017996da2366dbe6feb64b5e00dcb28b)
 
 ## [03 - Using module](https://github.com/koffelab/go/tree/main/hello-named)
 
@@ -35,7 +35,7 @@ Import a local module!
 
 - Import a local module.
 - Use the `go mod edit -replace module=directory` command to reference a local module.
-- [Reference](https://go.dev/doc/tutorial/call-module-code)
+- [Reference](https://go.dev/doc/tutorial/call-module-code) | [Commit](https://github.com/klaby/go/commit/7c57b0b3a55113df24a4e1f457ef5730826dfdb4)
 
 ## [04 - Handling errors](https://github.com/koffelab/go/tree/main/hello-named)
 
@@ -47,4 +47,17 @@ Validations and error handling!
 - Use the `errors` module to throw exceptions.
 - Use the `log` module to display errors in the terminal.
 - Assign value to a variable already declared using `=`.
-- [Reference](https://go.dev/doc/tutorial/handle-errors)
+- [Reference](https://go.dev/doc/tutorial/handle-errors) | [Commit](https://github.com/klaby/go/commit/694badb1dd2c5f6adc0e0be4b7c1a9a3153eabbe)
+
+## [05 - Random values](https://github.com/koffelab/go/tree/main/hello-named)
+
+Get random values based on a condition!
+
+### What have learned?
+
+- The use of the `init` function to execute functions at startup.
+- Declare a `slice/array`.
+- Get the size of a data using the `len` function.
+- Use the `Seed` function of the `rand` module to initialize the seeds on each run.
+- Use the `Intn` function of the `rand` module to generate a random number within the specified maximum size.
+- [Reference](https://go.dev/doc/tutorial/random-greeting) | [Commit](https://github.com/klaby/go/commit/65fb916c7b962cac13a8e950569bbbb95b7399ab)
