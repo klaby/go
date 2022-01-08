@@ -49,7 +49,7 @@ Validations and error handling!
 - Assign value to a variable already declared using `=`.
 - [Reference](https://go.dev/doc/tutorial/handle-errors) | [Commit](https://github.com/klaby/go/commit/694badb1dd2c5f6adc0e0be4b7c1a9a3153eabbe)
 
-## [05 - Random values](https://github.com/koffelab/go/tree/main/hello-named)
+## [05 - Random values](https://github.com/koffelab/go/tree/main/greetings)
 
 Get random values based on a condition!
 
@@ -61,3 +61,15 @@ Get random values based on a condition!
 - Use the `Seed` function of the `rand` module to initialize the seeds on each run.
 - Use the `Intn` function of the `rand` module to generate a random number within the specified maximum size.
 - [Reference](https://go.dev/doc/tutorial/random-greeting) | [Commit](https://github.com/klaby/go/commit/65fb916c7b962cac13a8e950569bbbb95b7399ab)
+
+## [06 - Maps, Slices and Iteration](https://github.com/koffelab/go/tree/main/greetings)
+
+Iterate a slice and populate a map!
+
+### What have learned?
+
+- Declare a `map` and initialize using the `make` function.
+- Use the `for-range` loop to iterate over a `map/slice/array`.
+- Use the blank `_` identifier to ignore the value.
+- Use a generic type with `interface {}`.
+- [Reference](https://go.dev/doc/tutorial/greetings-multiple-people) | [Commit](https://github.com/klaby/go/commit/f3bf16e24e5b44482764993a86cc2cb9954b61ea)
