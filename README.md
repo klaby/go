@@ -72,4 +72,18 @@ Iterate a slice and populate a map!
 - Use the `for-range` loop to iterate over a `map/slice/array`.
 - Use the blank `_` identifier to ignore the value.
 - Use a generic type with `interface {}`.
-- [Reference](https://go.dev/doc/tutorial/greetings-multiple-people) | [Commit](https://github.com/klaby/go/commit/f3bf16e24e5b44482764993a86cc2cb9954b61ea)
+- [Reference](https://go.dev/doc/tutorial/greetings-multiple-people) | [Commit](https://github.com/klaby/go/commit/a4c424c7bce4b37567543f870050763fe39e32fd)
+
+## [06 - Unit test](https://github.com/koffelab/go/tree/main/greetings)
+
+Unitary tests!
+
+### What have learned?
+
+- A test file must be named with the suffix `_test.go`.
+- The test function must start with `Test` name.
+- The test function must take a single `t *testing.T` argument providing all the necessary functions for the test.
+- Use `go test` command to run.
+- Use the `testing` module.
+- Use `regexp` module to work with regex.
+- [Reference](https://go.dev/doc/tutorial/add-a-test) | [Commit](https://github.com/klaby/go/commit/0438fd2ead28334d735c48c4660c899a0ce51c3d)
