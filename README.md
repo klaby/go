@@ -2,6 +2,28 @@
 
 🐨 Go lang Study Repository.
 
+## [00 - Basic](https://go.dev/tour/basics/1)
+
+A little bit of the basics.!
+
+### What have learned?
+
+- Programs in go are made up of `packages`.
+- Module imports are done using the `import` key and can be factored using parentheses `()` to group multiple imports.
+- Named exports are done using campitalyzed words 'SameExample',
+- Functions take one or more arguments where the type follows the argument name!
+- When arguments share the same type, I can omit all and preserve only the last `x int, y int` for `x, y int`.
+- Function can return one or several results.
+- Variables can be declared using the `var` key eg `var nameVariable type`.
+- Variables can be initialized using `var nameVariable = value`. In this case the type can be omitted as the variable will take the type of the initiator.
+- Inside a function I can use short variables using `:=`, but outside the functions I must use the `var` key.
+- The basic types are `bool`, `string`, `byte`, `rune`, `float32`, `float64`.
+- Zero values ​​are, `0 for numbers`, `false for booleans` and `"" for strings`.
+- When a variable is declared without specifying the type, the type is defined according to the assigned value.
+- Constants are declared using the `const` key and values ​​cannot be assigned using `:=`.
+- Go has only one type of loop, the `for`.
+- [Reference](https://go.dev/tour/welcome/1)
+
 ## [01 - Hello World](https://github.com/koffelab/go/tree/main/hello)
 
 Hello world in GO!
